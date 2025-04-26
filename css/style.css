@@ -6,7 +6,7 @@
     --foreground: #ffffff;
     --text-color: #e0e0e0;
     --text-secondary: #999999;
-    --accent: #fa6000;
+    --accent: #ea1821;
     --border: #333333;
     --card-bg: #1d1d1d;
     --hover-bg: #252525;
@@ -77,15 +77,16 @@ a:hover {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    max-width: 95%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 /* Layout */
 header, section {
     padding: 80px 20px;
-    max-width: 1200px;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -124,7 +125,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
+    max-width: 95%;
     margin: 0 auto;
 }
 
@@ -863,7 +864,7 @@ nav {
 /* Footer */
 footer {
     padding: 60px 20px;
-    max-width: 1200px;
+    max-width: 90%;
     margin: 0 auto;
 }
 
